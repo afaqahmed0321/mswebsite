@@ -59,7 +59,7 @@ const Header = () => {
   const [flag, setFlag] = useState(false);
   const [MenuOpen, setMenuOpen] = useState(false);
 
-  // const urlName = usePathname();
+  const urlName = usePathname();
 
   useEffect(() => {
     if (typeof window !== undefined) {

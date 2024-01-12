@@ -1,7 +1,7 @@
 import React, { useCallback, useRef } from "react";
 import PageHeading from "../pageHerdings";
 import SwiperButtons from "../SwiperButtons";
-import RewardCard from "../blog/RettingCard";
+import RewardCard from "../Blog/RettingCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Index = () => {

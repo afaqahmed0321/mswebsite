@@ -1,6 +1,5 @@
 import DetailsSection from "../src/components/TechUsed/DetailsSection";
 import DropdownTech from "../src/components/TechUsed/DropdownTech";
-import RettingCard from "../src/components/blog/RettingCard"; 
 import GetTuchFrom from "@/app/src/components/GetTuchFrom";
 import FeedbackCard from "../src/components/FeedbackCard";
 

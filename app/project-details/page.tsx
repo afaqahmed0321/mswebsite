@@ -3,7 +3,6 @@ import backgroundImage from "../../public/assests/projectDetails/bgOrange.png";
 import Image from "next/image";
 import ProjectInto from "../src/components/projectDetails/ProjectInto";
 import CheckList from "../src/components/projectDetails/CheckList";
-import RettingCard from "../src/components/blog/RettingCard"; 
 import GetTuchFrom from "@/app/src/components/GetTuchFrom";
 import FeedbackCard from "../src/components/FeedbackCard";
 

@@ -1,7 +1,7 @@
 import React, { useCallback, useRef } from "react";
 import PageHeading from "../pageHerdings";
 import SwiperButtons from "../SwiperButtons";
-import RewardCard from "../Blog/RettingCard";
+import RettingCard from "../Blog/RettingCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Index = () => {
@@ -68,19 +68,19 @@ const Index = () => {
         className="mySwiper md:my-20"
       >
         <SwiperSlide>
-          <RewardCard />
+          <RettingCard />
         </SwiperSlide>
         <SwiperSlide>
-          <RewardCard />
+          <RettingCard />
         </SwiperSlide>
         <SwiperSlide>
-          <RewardCard />
+          <RettingCard />
         </SwiperSlide>
         <SwiperSlide>
-          <RewardCard />
+          <RettingCard />
         </SwiperSlide>
         <SwiperSlide>
-          <RewardCard />
+          <RettingCard />
         </SwiperSlide>
       </Swiper>
       {/* </div> */}

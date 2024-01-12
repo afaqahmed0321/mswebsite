@@ -1,0 +1,10 @@
+.career-hero-section{
+    background: url("../../../../../public/assests/career/left-bg-doits.png"  )  bottom left no-repeat ;
+    background-size: 10%;
+    } 
+@media screen and (max-width:639px) {
+    .career-hero-section{
+        background: url("../../../../../public/assests/career/dots.png"  )  48% 28% no-repeat ;
+        /* background-size: 100%; */
+        } 
+}

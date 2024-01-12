@@ -1,0 +1,16 @@
+.hero-bg {
+    background-image: url("../../../../../public/assests/teckStack/bg.png");
+    background-repeat: no-repeat;
+    background-size: 150% 68%;
+    background-position: right top;
+}
+
+@media screen and (max-width: 632px) {
+    .hero-bg {
+        background-image: none;
+        background: rgb(255, 85, 0);
+        background: linear-gradient(169deg, rgb(255 85 0 / 20%) 0%, rgb(255 63 10 / 8%) 35%, rgb(255 85 0 / 0%) 78%);
+        ;
+    }
+
+}

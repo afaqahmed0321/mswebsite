@@ -1,0 +1,23 @@
+.form-bg {
+    background: url("../../../../public/assests/form/circle\ white.png") right top no-repeat, url("../../../../public/assests/form/circle\ orange.png") left bottom no-repeat, #BCBFC2;
+    background-size: 50%;
+}
+.form-second-box{
+    background: url("../../../../public/assests/form/bg\ \(3\).png") right bottom no-repeat;
+    background-size: 50% 100%;
+    border-radius: .7rem;
+}
+@media screen and (max-width:639px) {
+    .form-second-box{
+        background-image: none;
+        background: #FF5500;
+        border-radius: .7rem;
+        border-top-right-radius:0;
+        border-top-left-radius:0;
+    }
+}
+
+.clutch-widget iframe html body .rounded {
+    width: 100% !important;
+
+}

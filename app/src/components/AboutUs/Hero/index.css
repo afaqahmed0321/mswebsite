@@ -1,0 +1,18 @@
+.bg-img {
+    background-image: url("../../../../../public/assests/aboutus/bg\ \(4\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 160% 110%;
+}
+
+@media screen and (max-width:767px) {
+    .bg-img {
+        background-size: 150% 140%;
+    }
+}
+
+@media screen and (max-width:498px) {
+    .bg-img {
+        background-size: 110% 130%;
+    }
+}

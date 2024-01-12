@@ -1,7 +1,9 @@
 import React from "react";
 import PageHeading from "../../pageHerdings";
-import RettingCard from "../RettingCard";
 import BlogPageForm from "../LeveReplyForm";
+import USERIMAGEMETTLESOL from "../../../../../public/assests/blog/hero/user-mettleSol.png";
+// import RettingCard from "../RettingCard/index";
+
 
 const BlogFrom = () => {
   return (
@@ -17,7 +19,7 @@ const BlogFrom = () => {
         }
       />
       <div className="flex flex-row overflow-visible md:py-20 py-6 space-x-8 mx-4">
-        <RettingCard />
+        {/* <RettingCard userImage={USERIMAGEMETTLESOL}/>  */}
       </div>
       <div classNameName="px-28">
         <div className="py-14 px-2">

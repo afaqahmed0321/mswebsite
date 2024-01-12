@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Hero from "../src/components/TechStack/Hero";
-import TechStackFrom from "../src/components/teckStack/priceForm/PriceForm";
+import TechStackFrom from "../../app/src/components/TechStack/Form";
 import ColorsLine from "../src/components/ColorLine";
 import FeedbackCard from "../src/components/FeedbackCard";
 import GetTuchFrom from "@/app/src/components/GetTuchFrom";
@@ -17,7 +17,7 @@ const TechStack = () => {
       />
       <Hero />
       <TechStackFrom />
-      <RecentProject heading={"Our projects"}/>
+      <RecentProject heading={"Our projects"} collapse={true}/>
 
       <div className="flex justify-center py-20">
         <FeedbackCard />

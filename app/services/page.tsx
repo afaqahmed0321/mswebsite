@@ -20,7 +20,7 @@ const page = () => {
         <Flexible />
         <SwiperTwoComponent />
         <Content />
-        <RecentProject collapse={true}/>
+        <RecentProject collapse={true} heading="Recent Projects"/>
       </div>
       <div className=" md:px-56 md:py-12">
         <NewsLetter />

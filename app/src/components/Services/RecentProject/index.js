@@ -40,7 +40,7 @@ const data = [
     para: "Our Healthtech Consulting and Software Development Services have Empowered B...",
   },
 ];
-const Index = ({ collapse : boolean, heading : string }) => {
+const Index = ({ collapse, heading }) => {
   const sliderRef = useRef(null);
 
   const handlePrev = useCallback(() => {
